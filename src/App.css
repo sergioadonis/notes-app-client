@@ -1,6 +1,12 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
+  margin-top: 15px;
 }
+
+.App .navbar-brand {
+  font-weight: bold;
+}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -22,6 +28,10 @@
 .App-link {
   color: #61dafb;
 }
+
+/*.App .nav-link.active {*/
+/*  border-bottom: rgba(0,0,0,.6) solid 1.5px;*/
+/*}*/
 
 @keyframes App-logo-spin {
   from {
